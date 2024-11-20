@@ -1,0 +1,17 @@
+<!--
+SPDX-FileCopyrightText: 2024 tdsharp contributors <https://github.com/egramtel/tdsharp>
+
+SPDX-License-Identifier: MIT
+-->
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+
+        <IsPackable>false</IsPackable>
+
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+</Project>

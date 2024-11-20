@@ -1,0 +1,25 @@
+<!--
+SPDX-FileCopyrightText: 2024 tdsharp contributors <https://github.com/egramtel/tdsharp>
+
+SPDX-License-Identifier: MIT
+-->
+
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <PackageId>TDLib</PackageId>
+        <NoWarn>
+            MA0046; <!-- About parameter types for EventHandlers: properly wrapping those could add memory traffic -->
+            MA0055; <!-- "Do not use finalizer" -->
+            CS1591 <!-- Missing XML comment for publicly visible type or member -->
+        </NoWarn>
+        <PackageTags>telegram</PackageTags>
+        <Description>
+           .NET bindings for TDLib (Telegram Database Library): https://github.com/tdlib/td
+
+            This is the main binding library. For TL API, see TDLib.Api package.
+        </Description>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+</Project>
